@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameViewController">
+            <connections>
+                <outlet property="scoreLabel" destination="JLR-ya-6eo" id="eqp-RU-62r"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="allButtons" destination="uy5-E6-gES" id="9zQ-EZ-WMO"/>
+                <outletCollection property="allButtons" destination="UIC-Tb-41Z" id="wME-hf-NyA"/>
+                <outletCollection property="allButtons" destination="vbW-z5-1bw" id="egV-EW-avF"/>
+                <outletCollection property="allButtons" destination="Kzi-cc-WWT" id="njc-vU-zns"/>
+                <outletCollection property="allButtons" destination="fwY-c8-tr4" id="swY-vK-NXs"/>
+                <outletCollection property="allButtons" destination="SJX-rt-A7r" id="ezb-Ae-00q"/>
+                <outletCollection property="allButtons" destination="r73-S3-3Ei" id="KjD-8k-C3u"/>
+                <outletCollection property="allButtons" destination="Fx7-XK-D7b" id="XLV-Oi-aKM"/>
+                <outletCollection property="allButtons" destination="xLY-8c-2pO" id="yg0-Wf-tRD"/>
+                <outletCollection property="allButtons" destination="IWf-KV-flL" id="bVP-e9-Im8"/>
+                <outletCollection property="allButtons" destination="p38-8Q-nRV" id="AxZ-FW-quU"/>
+                <outletCollection property="allButtons" destination="NJX-7h-Aou" id="LsQ-F1-IUU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uy5-E6-gES">
+                    <rect key="frame" x="8" y="8" width="71" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png">
+                        <color key="titleColor" red="0.46553711660000002" green="0.56028801139999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="dtI-nq-GYE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIC-Tb-41Z">
+                    <rect key="frame" x="87" y="8" width="62" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="ox8-F9-UIf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-z5-1bw">
+                    <rect key="frame" x="158" y="8" width="72" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="coX-VS-QAk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzi-cc-WWT">
+                    <rect key="frame" x="238" y="9" width="67" height="108"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="YOV-cs-eIT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwY-c8-tr4">
+                    <rect key="frame" x="8" y="125" width="71" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png">
+                        <color key="titleColor" red="0.46553711660000002" green="0.56028801139999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="ThC-hG-DHe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJX-rt-A7r">
+                    <rect key="frame" x="87" y="125" width="62" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="VWl-jJ-p8q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r73-S3-3Ei">
+                    <rect key="frame" x="158" y="125" width="72" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="5rq-2n-GHN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx7-XK-D7b">
+                    <rect key="frame" x="238" y="126" width="67" height="108"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="ZKD-hR-8x5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLY-8c-2pO">
+                    <rect key="frame" x="8" y="242" width="71" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png">
+                        <color key="titleColor" red="0.46553711660000002" green="0.56028801139999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="6km-rH-YYS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWf-KV-flL">
+                    <rect key="frame" x="87" y="242" width="62" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="O9x-Db-25V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p38-8Q-nRV">
+                    <rect key="frame" x="158" y="242" width="72" height="107"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="ACf-xG-CYe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJX-7h-Aou">
+                    <rect key="frame" x="238" y="243" width="67" height="108"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="❤️A" backgroundImage="cardfront.png"/>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="fbd-Ow-Rht"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLR-ya-6eo">
+                    <rect key="frame" x="8" y="387" width="120" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.65712130235065636" green="1" blue="0.64509608629111248" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="305" y="436"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cardfront.png" width="79" height="120"/>
+    </resources>
+</document>
